@@ -1,0 +1,71 @@
+Link: https://es.reactjs.org/docs/introducing-jsx.html
+
+Considera la declaración de esta variable: 
+
+const element = <h1>Hello, word</h1>;
+
+Esta curiosa syntax de etiquetas no es ni un string ni <HTML>
+    Se llama JSX, y es una extension de la syntax de JavaScript.
+
+Recomendamos usarlo con React para describir como deberia ser la interfaz
+de usuario. JSX puede recordarte a un lenguaje de plantillas,
+pero viene con todo el poder de JavaScript.
+
+JSX produce "Elementos" de React. Exploraremos como renderizarlos
+en el DOM en la siguente seccion. A continuacion puedes encontrar lo basico
+de JSX que sera necesario para empezar. 
+
+¿Por que JSX?
+
+React acepta el hecho de que la logica de renderizado esta intrinsecamente
+unida a la logica de la interfaz de usuario: Coo se manejan los eventos, 
+como cambia el estado con el tiempo y como se preparan los datos para su 
+visualizacion. 
+
+En luigar de separar artificialmente tecnologias poniendo el maquetado y la logica
+en archivos separados, React separa intereses con unidades ligeramente acopladas
+llamadas "componentes" que contienen ambas. Volvemos a los componentes en otra seccion
+pero si aun no te sientes comodo maquetando en JS, esta charla podria convencerte
+de lo contrario. 
+
+React no requiere usar JSX, pero la mayoria de la gente lo encuentra util como ayuda
+visual cuando trabajan con interfaz de usuario dentro del codigo JavaScript.
+Esto tambien permite que React muestre mensajes de error o advertencia mas utiles. 
+--------------------------------------------------------------------------------------
+
+INSERTANDO EXPRESIONES EN JSX
+
+En el ejemplo a continuacion, declaramos una variable llamada "name" y luego la 
+usamos dentro del JSX envolviendola dentro de llaves;
+
+---------------------------------------------------------------------------------------
+const name = 'Jafet Brito';
+const element = <h1>Hello, {name}</h1>;
+---------------------------------------------------------------------------------------
+
+puedes poner cualquier expresion de JavaScript dentro de llaves en JSX
+por ejemplo 2 + 2, user.firstName, o formatName(user) son todas expresiones validas 
+de JavaScript.
+
+En el ejemplo a continuacion, insertamos los resultados de llamar la funcion 
+de JavaScript
+formatName(user), dentro de un elemento <h1>
+
+---------------------------------------------------------------------------------------
+function formatName(user) {
+    return user.firstName + '' + user.lastName;
+}
+
+const user = {
+    firstName: 'Jafet',
+    lastName: 'Brito'
+}
+
+const element = (
+    <h1>
+        Hello, {formatName(user)}!
+    </h1>
+);
+--------------------------------------------------------------------------------------
+
+ESPECIFICANDO ATRIBUTOS CON JSX
