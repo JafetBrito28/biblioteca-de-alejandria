@@ -5,7 +5,7 @@ __________________________________________
 
  🅱🅸🅴🅽🆅🅴🅽🅸🅳🅾🆂
 
-(https://upload.wikimedia.org/wikipedia/commons/6/64/Ancientlibraryalex.jpg)
+![Ilustracion de agregar gist](https://upload.wikimedia.org/wikipedia/commons/6/64/Ancientlibraryalex.jpg)
 
 En este repositorio se encuentra una recopilacion de textos, escritos, ensayos, articulos.. Ect, que he encontrado o re-escrito para no olvidar.
 Programacion, informatica y ciencias de la computacion. 
