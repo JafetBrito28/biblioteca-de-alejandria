@@ -1,0 +1,20 @@
+https://docs.github.com/es/get-started/quickstart/fork-a-repo
+
+A fork is a copy of a repository. Forking a repository allows you to freely
+experiment with changes without affecting the original project. 
+
+Most commonly, forks are used yo either propose change to someone else´s project
+to which you do not have write access, or to use someone else´s project as a starting
+point for you own idea. You can fork a repository to create a copy of the repository 
+and make changes without affecting the upstream repository. 
+
+Propose changes to someone else´s project 
+
+For example, you can forks to propose changes related to fixing a bug. 
+Rather than logging an issue for a bug you have found you can: 
+
+Fork the repository
+Make the fix
+submit a pull request to the project owner. 
+
+
