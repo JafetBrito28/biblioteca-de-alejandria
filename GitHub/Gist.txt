@@ -1,0 +1,36 @@
+¿Qué es un Gist en GitHub y para que sirve?
+
+un gist es una forma que se tiene par apoder compartir codigo usando GitHub.
+
+Cuando tenemos un codigo que no es lo suficientemente grande para crear un repositorio,
+entonces creamos un gist. Aunque gist funciona basicamente como un repositorio,
+ya que se le puede hacer un fork o clonarlo. Asi mismo se puede editar y las personas
+pueden comentar el gist.
+
+Usos del gist
+
+Muchas personas usan gist como un portapapeles. Para subir codigo que siempre 
+sueles usar en diferentes proyectos. Tambien se suele usar como una forma de hacer
+posts. Como este que estas viendo. 
+
+Tambien se puede embeber un gist en un archivo de texto que soporte JavaScript.
+Por ejemplo en un blog post. 
+
+¿Cómo crear un Gist en GitHub?
+
+1. Entrar en nuestro perfil de GitHub
+
+2. En la parte superior derecha, darle click en el '+' y luego en 'New Gist'
+
+3. Luego se nos abre un espacio en el que crearemos nuestro gist
+
+En la parte superior pondremos una descripción de nuestro gist. Luego escribiremos el nombre del archivo. Y debajo debería ir todo nuestro código.
+
+4. Una vez creado esto podemos subir el gist como un gist secreto o un gist público.
+
+Nota: Hay que tener en cuenta que al crear un gist secreto, este no es secreto del todo, ya que si nosotros copiamos la URL y la compartimos, este gist puede ser visto por la persona a la que le hayamos compartido el enlace. El efecto que tiene que nosotros creamos el gist como un gist secreto, solo implica que este no aparecerá en las búsquedas.
+
+Así que recuerda que si tienes un gist secreto, aún puede ser visto por las demás personas si es que estas tienen acceso a la URL, así que si de verdad quieres tener tu código privado, deberías crear un repositorio privado como tal. Esto es debido a que principalmente gist está pensado cómo una forma rápida de compartir código.
+
+Información adicional
+Los gist son propios de GitHub, no de Git. En GitLab existe algo similar que se llama GitLab Snippets.
