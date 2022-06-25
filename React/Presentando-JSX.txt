@@ -70,3 +70,21 @@ const element = (
 
 ESPECIFICANDO ATRIBUTOS CON JSX
 
+Puedes utilizar comillas para especificar strings literales como atributos:
+
+const element = <a href="https://www.reactjs.org"> Link </a>
+
+tambien puedes usar llaves para insertar una expresion JavaScript en un atributo:
+
+const element = <img src={user.avatarUrl}></img>;
+
+No pongas comillas rodeando llaves cuando insertes una expresion JavaScript en Un
+atributo. Debes utilizar comillas (para los valores de los strings) o llaves (para las expresiones),
+pero no ambas en el mismo atributo. 
+
+ADVERTENCIA:
+
+Dado que JSX es mas cercado a JavaScript que a HTML, React DOM usa la convencion
+de nomenclatura camelCase en vez de nombres de atributos HTML.
+
+por ejemplo class se vuelve className en JSX, y tabindex se vuelve tabIndex

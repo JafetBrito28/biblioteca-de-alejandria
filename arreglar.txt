@@ -1,16 +1,3 @@
-----------------------------------------------------------
-
-En este archivo vas a colocar los textos que puedas destacar
-de tus clases. 
-
-Tienes toda la libertad de escribir, solo realizado con 
-buena presentacion. 
-
-Voy a dejar unas notas que comenzaste a hacer. Pero 
-no deberias de hacer esto, por esto van a estar incluidas en
-el primer commit, por si quieres quitarlas. jajajaja
-
--------------------------------------------------------------
 
 En el mundo unix, linux mac ya esta instalada 
 un sistema de seguridad
