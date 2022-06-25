@@ -1,0 +1,19 @@
+https://www.freecodecamp.org/espanol/news/npm-vs-npx-cual-es-la-diferencia/
+
+Si alguna vez has usado Node.js entonces seguro que has usado npm. 
+
+npm(Node package manager)es el gestor de dependencias/paquetes que obtienes por defecto cuando 
+instalas Node.js. Proporciona una manera para que los desarrolladore instalen paquetes tanto a 
+nivel global como local. 
+
+A veces puede que quieras echar un vistazo a un paquete especifico y probar algunos comandos.
+pero no puedes hacerlo sin instalar las dependencias en tu carpeta local de node_modules
+
+ahi es donde entra npx.
+
+En este articulo, vamos a echar un vistazo a las diferencias entre npm y npx y aprenderemos 
+como obtener lo mejor de ambos. 
+
+En primer lugar, vamos a entender lo que npm es en realidad y lo que podemos hacer con el. 
+
+// Creo que es mejor que utilize .md al menos en github.
