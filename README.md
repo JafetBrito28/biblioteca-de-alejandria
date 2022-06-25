@@ -12,5 +12,6 @@ Programacion, informatica y ciencias de la computacion.
 Es una referencia personal que me permite acceder a mis notas de manera sencilla. 
 El proposito de este archivo es compartir el conocimiento. 
 Si estas interesado en participar puedes hacerlo enviando un mensaje. 
+contacto@jafetbrito.com
 
 🅶🆁🅰🅲🅸🅰🆂 🅿🅾🆁 🆂🆄 🆅🅸🆂🅸🆃🅰
