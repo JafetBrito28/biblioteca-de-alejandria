@@ -1,0 +1,18 @@
+https://es.wikipedia.org/wiki/MongoDB
+
+MongoDB(del ingles huMONGOus, "enorme") es un sistema de base de datos, NoSQL, orientado a documentos y de codigo abierto.
+
+En lugar de guardar los datos en tablas, tal como se hace en las bases de datos relacionales, MongoDB guarda estructuras
+de datos, BSON (una especificacion similar a JSON) con un esquema dinamico, haciendo que la integracion de los datos en
+ciertas aplicaciones sea mas facil y rapida. 
+
+MongoDB es una base de datos adecuada para su uso en produccion y con multiples funcionalidades. Esta base de datos se 
+utiliza mucho en la industria contando con implantaciones en empresas como MTV Network, Craiglist, Foursquare. 
+
+El codigo fuente esta disponible para los sistemas operativos, GNU/LINUX, OS X y Solaris. 
+
+Historia 
+
+El desarrollo de MongoDB comenzo en 2007 de la mano de 10gen Inc. (ahora llamada MongoDB Inc) cuando desarrollaban una 
+plataforma como servicio (PaaS) similar al conocido Google App Engine. En 2009 En marzo de 2011, se lanzo la version 1.4
+y se considero ya como una base de datos lista para su uso en produccion. 

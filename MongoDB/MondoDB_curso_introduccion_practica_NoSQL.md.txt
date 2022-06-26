@@ -1,0 +1,77 @@
+{
+	"nombre": "laptop",
+	"precio": 40.2,
+	"active": false,
+	"created_at": new Date("12/12/1999")
+	"somedata": [1, "a", []],
+	"fabricante": {
+		"name": "dell",
+		"version": "xps",
+		"location": {
+			"city": "usa",
+			"cp": 23455,
+			}
+
+}
+})
+
+// Comandos 
+
+show collections
+db 
+show dbs
+
+{ "_id" : ObjectId("34324234"), "name" : "keyboard" }
+
+metodo
+
+db.products.insert([ 
+	{
+		"name": "mouse",
+		"description": "razer mouse",
+		"tags": ["computers, "gaming"],
+		"quantitu"
+		},
+		"name": "mouse",
+		"description": "razer mouse",
+		"tags": ["computers, "gaming"],
+		"quantitu"
+		},
+])
+
+copiar y pegar en mongoDB
+
+cls 
+
+db.products.find()
+
+"" se agregaran dos datos 
+
+db.products.find().pretty()
+
+db.prodcuts.find({name: "mouse"})
+
+db.products.find({name: "mouse"})
+
+db.products.find({"price": 999.99})
+
+db.products.find({"tags: "computers", "name": "monitor"})
+
+consultas de determinados tipos de datos. 
+
+
+findOne
+
+db.products.find({"tags": "computer"})
+db.products.find({tag": "computer"})
+db.prodcuts.find({"tags": "computers"})
+
+{ "_id": ObjectId(""), "name" : "mouse", "descripcion"
+
+db.products.findOne({"tags": "computers", {"name": 1, "descripcion": 1})
+
+db.products.findOne({"tags": "computers"}
+
+db.products.find("tag": "computers")
+db.products.findOne()
+
